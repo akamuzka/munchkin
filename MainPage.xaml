@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage"
+             BackgroundColor="Black">
+
+
+    <StackLayout>
+        
+        <Label Text="하얼빈 길라잡이" Font="Bold, 36"
+               BackgroundColor="White"
+               TextColor="Black"
+               HorizontalOptions="Center"
+               VerticalOptions="StartAndExpand"/>
+
+
+        <Button Text="로그인" Clicked="Button_Clicked"
+                TextColor="Black"
+                BackgroundColor="White"
+                BorderRadius="15"/>
+        
+        
+        <Button Text="회원가입" Clicked="Button_Clicked"
+                
+                
+                TextColor="Black"
+                BackgroundColor="White"
+                BorderRadius="15"/>
+
+        
+        
+        <Label Text="제작자 : 리동딱"
+               BackgroundColor="White"
+               TextColor="Black"
+               HorizontalOptions="Center"/>
+
+
+    </StackLayout>
+
+</ContentPage>
